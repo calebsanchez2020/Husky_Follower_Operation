@@ -1,0 +1,9 @@
+# YOLOv8 for object detection
+ultralytics
+
+# OpenCV for image manipulation and displaying frames
+opencv-python
+
+# Note: numpy will be installed automatically as a dependency of ultralytics.
+# In Option A, your README pins it to <2.0.0 afterward. 
+# In Option B, this will pull numpy >= 2.0.0.
