@@ -172,4 +172,3 @@ Make sure you created the venv with `--system-site-packages`. If you forgot, del
 **`colcon build` can't find your scripts:**
 Ensure your `setup.py` or `setup.cfg` lists both scripts as entry points or console scripts.
 
-## License
