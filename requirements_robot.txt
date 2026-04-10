@@ -1,0 +1,5 @@
+# ZED SDK Python bindings
+pyzed
+
+# Strictly pinned to prevent the ZED SDK from breaking
+numpy<2.0.0
