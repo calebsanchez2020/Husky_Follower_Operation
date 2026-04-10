@@ -1,5 +1,16 @@
 # Husky Multi-Camera Vision
 
+This package turns a Clearpath Husky A200 into a dual-vision autonomous follower.
+
+It uses a ZED-X stereo camera to lock onto a person's centroid and physically follow them at a set distance, done with a PD controller, while simultaneously running a YOLOv8 object detector on a FLIR Boson 320 thermal feed. It essentially tracks targets in both spatial RGB and thermal space, all processed on the edge.
+
+Check out the demo below to see the Husky tracking me in real-time using both camera systems:
+
+## Demo
+https://github.com/user-attachments/assets/826fe1ca-aa25-4477-8984-264ca05d2a71
+
+
+
 ROS 2 package for the Clearpath Husky A2000 integrating a Stereolabs ZED-X for person-following and a FLIR Boson 320 for thermal object detection using YOLOv8.
 
 ## Hardware
